@@ -14,22 +14,22 @@ cask "typomat" do
   on_macos do
     on_intel do
       url "https://github.com/vupdivup/typomat/releases/download/v#{version}/typomat_#{version}_darwin_amd64.tar.gz"
-      sha256 "5cb25604738627f194fa61f0b457afec9c12b9c19520561c746622c051994320"
+      sha256 "198468b340b19c53cc510eba30cb5aca146ff7af2705968d5d55b2043f31fcc1"
     end
     on_arm do
       url "https://github.com/vupdivup/typomat/releases/download/v#{version}/typomat_#{version}_darwin_arm64.tar.gz"
-      sha256 "c55151e1ddca9dcb8d0537e6264498bc5b0dde3a8a8531e99325afbb5c7c0043"
+      sha256 "65baf8116f78db5eefbe4765c61285e5e25298c2971216a1a141be367e8e3e58"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/vupdivup/typomat/releases/download/v#{version}/typomat_#{version}_linux_amd64.tar.gz"
-      sha256 "104a26b9427ce6c7849206f9463fc909b03b207f227dd39d199b865167592efd"
+      sha256 "82fc924b10a603bfb97dc9d0676bdf8ef53e4552cf7503c02626fe2fe8bd365b"
     end
     on_arm do
       url "https://github.com/vupdivup/typomat/releases/download/v#{version}/typomat_#{version}_linux_arm64.tar.gz"
-      sha256 "79be5ba44360f32b8b3d02f0b63c5b87e8686e96a19112019c31c604064eb0cd"
+      sha256 "71998b4f2b3c96b82c2ca610ae17f3355ce54edf3fb57ef88c92b8418110e487"
     end
   end
 
