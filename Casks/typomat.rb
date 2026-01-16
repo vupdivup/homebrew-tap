@@ -3,7 +3,7 @@ cask "typomat" do
   name "typomat"
   desc "Turn your code into muscle memory"
   homepage "https://github.com/vupdivup/typomat"
-  version "0.2.1"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "typomat" do
   on_macos do
     on_intel do
       url "https://github.com/vupdivup/typomat/releases/download/v#{version}/typomat_#{version}_darwin_amd64.tar.gz"
-      sha256 "633db84e1d75db9a1fde2bee112f0947a6fa8e9d4f086f574746a953cec7cea6"
+      sha256 "b808676aa971f3f78ebb36a263d95cd4023a4bacffe82631a2b7a38076f1dd20"
     end
     on_arm do
       url "https://github.com/vupdivup/typomat/releases/download/v#{version}/typomat_#{version}_darwin_arm64.tar.gz"
-      sha256 "28f5bfe82fe718ba66deb7780d983336474e07c96ead9957402daf0bfce3bebf"
+      sha256 "dce34fd967c02f7d6e31bbb4bce7ac6399c950173ef2f1d900e12839f5405bd5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/vupdivup/typomat/releases/download/v#{version}/typomat_#{version}_linux_amd64.tar.gz"
-      sha256 "3ff5c5ad4de427dfd7ab3e532ce07bf46a2c72957c56fe9363f123bb3ddd3174"
+      sha256 "f17e3dff2f64530de0f5f7630bed774ea148b933464961ed09a25ac6ed0eb044"
     end
     on_arm do
       url "https://github.com/vupdivup/typomat/releases/download/v#{version}/typomat_#{version}_linux_arm64.tar.gz"
-      sha256 "05e35252dbefbc485a9830d31b906327c9830561823579f104a8370a70a9f265"
+      sha256 "277672776b413f3225a9932dd8be9bdaa66eabf1f12d6e7b4d63cff661ca3bc4"
     end
   end
 
